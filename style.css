@@ -1,0 +1,436 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+}
+.menu{
+    display: flex;
+    height: 80px;
+}
+.left-menu{
+    margin-left: 70px;
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right-menu{
+    margin: 0 8% 0 22%;
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu a{
+    text-decoration: none;
+    font-family: inherit;
+    color: black;
+}
+.right-menu a{
+    border: 1px solid black;
+    background-color:#d9e2c3;
+    padding: 4px 8px;
+    border-radius: 14px;
+    font-size: 12px;
+}
+main{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/pen-tray-hero2.webp');
+    height: 550px;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.first-para{
+    width: 380px;
+    padding-top: 300px;
+    padding-left: 70px;
+    color:white;
+}
+.first-para h1{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 5px;
+}
+.first-para p{
+    margin-bottom: 30px;
+}
+.first-para a{
+    text-decoration: none;
+    font-size: 15x;
+    font-family: Arial,sans-serif;
+}
+.first-link{
+    border: 1px solid black;
+    padding: 12px 30px;
+    color: black;
+    background-color:#ffd879 ;
+    border-radius: 25px;
+    margin-right: 30px;
+}
+.first-link i{
+    padding-left: 8px;
+}
+.second-link{
+    border:1px solid white;
+    padding: 12px 30px;
+    color:white;
+    border-radius: 25px;
+}
+.second-link:hover{
+    color: black;
+    background-color: white;
+}
+.second-link i{
+    padding-left: 8px;
+}
+.first-para-footer{
+    height: 110px;
+    background-color: #7e6e45;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+.first-para-footer img{
+    width: 100px;
+}
+.first-para-footer p{
+    margin: 0 100px;
+    color: white;
+    font-size: 20px;
+}
+#store{
+    background-color: #f8f6f1;
+    padding-bottom: 50px;
+}
+.all-store{
+    width: 92%;
+    margin: 0 auto;
+}
+#store h1{
+    text-align: center;
+    font-size: 50px;
+    padding: 50px;
+}
+.store-items{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    row-gap: 0;
+    column-gap: 20px;
+}
+.items img{
+    display: block;
+    width: 100%;
+    height: 350px;
+    position: relative;
+}
+.large{
+    grid-column: span 2;
+}
+.new{
+    margin: 0;
+    border: 1px solid #deece7;
+    background-color: #deece7;
+    padding: 3px 12px;
+    border-radius: 15px;
+    font-size: 12px;
+    position: relative;
+    top: -93%;
+    left: 2%;
+}
+.store-items p{
+    margin-top: 5px;
+}
+.price,.new-price{
+    font-size: 13px;
+}
+.hide-price{
+    text-decoration: line-through;
+}
+.new-price{
+    color: red;
+}
+.shadow-text{
+    color: #a8a8a8;
+}
+.link-gather{
+    display: block;
+    text-align: center;
+    margin: 80px;
+}
+.link-gather a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 12px 50px;
+    font-size: 20px;
+    background-color: #ffd879;
+    border-radius: 28px;
+    color: black;
+    font-family: Arial,sans-serif;
+}
+.link-gather i{
+    padding-left: 8px;
+}
+.best-seller-header{
+    width:50%;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.best-seller-header a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family:Arial,sans-serif ;
+}
+.a-border{
+    border-bottom: 1px solid black;
+    padding-bottom: 5px;
+}
+.second-store{
+    width: 92%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 20px;
+}
+.second-items img{
+    display: block;
+    width: 100%;
+}
+#desktop{
+    background:linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('./images/desktop.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:450px;
+}
+.order-desktop{
+    display: inline-block;
+    position: relative;
+    top: 75%;
+    left: 5%;
+}
+.order-desktop a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 12px 50px;
+    font-size: 20px;
+    background-color: #ffd879;
+    border-radius: 28px;
+    color: black;
+    font-family: Arial,sans-serif;
+}
+.order-desktop h1{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 20px;
+    color: white;
+}
+.four-photos{
+    background-color: #eae7d9;
+    padding-bottom: 100px;
+}
+.title{
+    font-size: 40px;
+    text-align: center;
+    padding-top: 100px;
+    padding-bottom: 20px;
+    font-family: 'Playfair Display', serif;
+}
+.fourph{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+.fourph img{
+    display: block;
+    width: 93%;
+    margin: 15px 0;
+}
+.s-photos{
+    border: 1px soid #fafaf2;
+    background-color: #fafaf2;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.s-photos span{
+    font-family: 'Sofia Sans Semi Condensed', sans-serif;
+    margin:10px 0;
+}
+.s-photos p{
+    margin: 0 80px;
+    font-size: 18px;
+}
+.s-photos a{
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 12px 35px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: black;
+    border-radius: 20px;
+    color: white;
+}
+#starter-kit{
+    background-color: #fafaf2;
+}
+.lan{
+    padding:60px 0;
+}
+.analog-kit{
+    width: 90%;
+    margin: 0 auto;
+    border: 1px solid black;
+    background-color: white;
+    border-radius: 10px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+}
+.analog-photo{
+    display: block;
+    width: 100%;
+    border: 1px solid black;
+}
+.analog-photo, .analog{
+    margin: 20px;
+}
+.analog h1{
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    margin: 100px 0 30px 0;
+}
+.analog p{
+    margin: 7px 0;
+}
+.analog i{
+    margin-right: 10px;
+}
+.kit{
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 12px;
+    font-size: 15px;
+    background-color: #ffd879;
+    border-radius: 18px;
+    color: black;
+    font-family: Arial,sans-serif;
+    margin: 40px 0;
+}
+.kit2{
+    display: block;
+    color: black;
+    text-align: center;
+}
+#design-studio{
+    background-color: #eae7d9;
+    padding-bottom: 60px;
+}
+.designer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.designer img{
+    width: 90%;
+    display: block;
+    margin: 0 auto;
+    padding: 80px 0 40px 0;
+}
+.designer p{
+    width: 700px;
+    margin: 10px auto;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    text-align: center;
+}
+.designer a{
+    margin: 20px 0;
+    border: 1px solid black;
+    background-color: black;
+    padding: 10px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 26px;
+}
+.designer i{
+    margin-left: 8px;
+}
+#scoop{
+    background-color: #ced3ca;
+    padding-bottom: 80px;
+}
+.get-inside{
+    width: 400px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.get-inside h1{
+    margin: 100px 0 20px 0;
+    font-family: 'Playfair Display', serif;
+    font-size: 30px;
+}
+.get-inside p{
+    text-align: center;
+    font-size: 17px;
+}
+.get-inside input{
+    margin-top: 50px;
+    width: 100%;
+    height: 40px;
+    font-size: 16px;
+}
+.butoni{
+    background-color:rgb(42, 42, 42);
+    color: white;
+    height: 38px;
+    width: 100%;
+    margin-top: 15px;
+    font-size: 16px;
+}
+#contact{
+    background-color: #fafaf2;
+}
+.about{
+    width: 85%;
+    margin: 0 auto;
+    padding: 70px 0;
+}
+.contact{
+    display: flex;
+    gap: 120px;
+}
+.first-contct p{
+    margin-bottom: 12px;
+    font-size: 16px;
+    padding-right: 0;
+}
+.second-contact p{
+    margin-bottom: 12px;
+    font-size: 16px;
+    margin-right: 100px;
+}
+.third-contact{
+    margin-left: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+    width: 250px;
+}
+.third-contact p{
+    text-align: justify;
+    font-size: 16px;
+    margin: 7px 0;
+}
+.social-logos i{
+    margin-top: 30px;
+    margin-left: 10px;
+}
