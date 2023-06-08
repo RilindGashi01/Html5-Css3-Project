@@ -26,8 +26,11 @@
     <header>
         <div class="menu">
         <div class="left-menu">
+            <div class="bar">
+                <i class="fa-solid fa-bars fa-xl" style="color: #030303;"></i>
+            </div>
             <div class="logo">
-            <h1>UGMONK</h1>
+            <h1 class="name">UGMONK</h1>
             </div>
             <a href="#">Analog</a>
             <a href="#">Gather</a>
@@ -36,8 +39,8 @@
         </div>
         <div class="right-menu">
             <a href="#">Shop Analog</a>
-                <i class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
-                <i class="fa-solid fa-user" style="color: #000000;"></i>
+                <i id="remove" class="fa-solid fa-magnifying-glass" style="color: #000000;"></i>
+                <i id="remove" class="fa-solid fa-user" style="color: #000000;"></i>
                 <i class="fa-solid fa-cart-shopping" style="color: #000000;"></i>
         </div>
        </div>
@@ -47,10 +50,10 @@
             <h1>The Analog Productivity System</h1>
             <p>Stay focused on your most important work</p>
             <a href="#" class="first-link"> Get Analog<i class="fa-solid fa-arrow-right fa-xs" style="color: #000000;"></i></a>
-            <a href="#" class="second-link">How it works<i class="fa-solid fa-arrow-right fa-xs " style="color: #ffffff;"></i></a>
+            <a href="#" class="second-link">How it works<i class="fa-solid fa-arrow-right fa-xs "></i></a>
         </div>
     </main>
-    <section>
+    <section id="focus">
         <div class="first-para-footer">
             <p>"Analog keep your focus where it should be."</p>
             <img src="./images/uncrate-logo_b4c7e6f6-210a-4730-97e5-cde3c2d3a05a.webp" alt="uncreate logo">
@@ -61,7 +64,7 @@
     </section>
     <section id="store">
         <div class="all-store">
-        <h1>The New Gather Collection</h1>
+        <h1 class="the-new">The New Gather Collection</h1>
         <div class="store-items">
             <div class="items large">
                 <img src="./images/first1.webp" alt="first photo">
@@ -338,7 +341,9 @@
     <section id="starter-kit">
         <div class="lan">
         <div class="analog-kit">
+            <div class="analogp">
             <img class="analog-photo" src="./images/photo6.webp" alt="photo">
+            </div>
             <div class="analog">
                 <h1>Analog Starter Kit</h1>
                 <p><i class="fa-regular fa-circle-check" style="color: #bfbfbf;"></i>Solid Wood Card Holder (Walnut or Maple)</p>
@@ -368,7 +373,7 @@
     <footer id="contact">
         <div class="about">
         <div class="contact">
-            <div class="first-contct">
+            <div class="first-contct last">
                 <p>Customer Service</p>
                 <p>Help / FAQ</p>
                 <p>Returns & Exchanges</p>
@@ -376,7 +381,7 @@
                 <p>Gift Cards</p>
                 <p>Contact Us</p>
             </div>
-            <div class="second-contact">
+            <div class="second-contact last">
                 <p>About</p>
                 <p>Our Story</p>
                 <p>Shop</p>
